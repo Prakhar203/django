@@ -12,7 +12,6 @@ import requests
 import wikipedia
 from django.contrib.auth.decorators import login_required
 from .forms import ConversionForm, ConversionLengthForm, ConversionMassForm
-from django.shortcuts import render
 
 # Create your views here.
 def home(request):
